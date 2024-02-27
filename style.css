@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+}
+
+.scoreboard {
+    position: fixed;
+    top: 2rem;
+    left: 1rem;
+    user-select: none;
+}
+
+#green-tile,
+#brown-tile,
+#hitman {
+    display: none;
+}
